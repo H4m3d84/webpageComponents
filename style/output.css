@@ -256,4 +256,15 @@ body {
   margin: 5rem auto;
 }
 
+.components {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+}
+.components__accordion__link, .components__carousel__link, .components__table__link, .components__pagination__link {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=output.css.map */

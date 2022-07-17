@@ -2,3 +2,20 @@
   width: 90rem;
   margin: 5rem auto;
 }
+
+.components {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+
+  &__accordion,
+  &__carousel,
+  &__table,
+  &__pagination {
+    &__link {
+      text-decoration: none;
+      color: $color-gray-dark;
+      font-size: 2rem;
+    }
+  }
+}
